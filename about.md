@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Information Security Engineer and Researcher!
+Information Security Engineer and Researcher.
 
-### More Information
+///### More Information
 
 
 
