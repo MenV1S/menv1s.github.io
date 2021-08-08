@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Information Security Engineer and Researcher!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+
 
 ### Contact me
 
