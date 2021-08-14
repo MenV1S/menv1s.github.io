@@ -10,11 +10,11 @@ __Conference:__ Positive Hack Days 10
 
 __Date:__ 21.05.2021
 
-[__Slides__(in russian)][1] &nbsp; &nbsp; [__Video__][2]
-<br />
-
 The talk about the detection of errors in the NVD. Errors detected in the vulnerabilities description and methods for automating their detection will be provided.
 <br/>
+
+[__Slides__(in russian)][1] &nbsp; &nbsp; [__Video__][2]
+<br />
 
 [1]: https://static.ptsecurity.com/phdays/presentations/phdays-10/error-detection-in-the-national-vulnerability-database.pdf
 [2]: https://standoff365.com/phdays10/schedule/fast-track/error-detection-in-the-national-vulnerability-database
