@@ -4,7 +4,7 @@ title: "Conference Talks and Magazines Articles"
 permalink: /talks_and_articles/
 ---
 
-# [Error detection in the National Vulnerability Database][3]
+## [Error detection in the National Vulnerability Database][3]
 
 __Conference:__ Positive Hack Days 10
 
