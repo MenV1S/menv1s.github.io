@@ -4,9 +4,9 @@ title: "Conference Talks and Magazines Articles"
 permalink: /talks_and_articles/
 ---
 
-## [Баги, которые от нас скрывают. Выбираем лучший сайт для поиска уязвимостей][5]
+## Баги, которые от нас скрывают. Выбираем лучший сайт для поиска уязвимостей 
 
-__Журнал:__ [Хакер][4]
+__Журнал:__ Хакер
 
 В статье cравненил NVD, Cvedetails и Vulners. В процессе написания нашел ошибки в работе Vulners'a. Уже исправили.
 <br/>
@@ -20,7 +20,7 @@ __Conference:__ Positive Hack Days 10
 
 __Date:__ 21.05.2021
 
-The talk about the detection of errors in the NVD. Errors detected in the vulnerabilities description and methods for automating their detection will be provided.
+The [talk][3] about the detection of errors in the NVD. Errors detected in the vulnerabilities description and methods for automating their detection will be provided.
 <br/>
 
 [__Slides__(in russian)][1] &nbsp; &nbsp; [__Video__][2]
