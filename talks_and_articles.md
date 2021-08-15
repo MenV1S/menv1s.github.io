@@ -14,7 +14,7 @@ __Журнал:__ [Хакер][4]
 [__Статья__][5] &nbsp; &nbsp; [__Весь номер__][6]
 <br />
 
-## [Error detection in the National Vulnerability Database][3]
+## Error detection in the National Vulnerability Database
 
 __Conference:__ Positive Hack Days 10
 
