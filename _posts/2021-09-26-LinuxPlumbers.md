@@ -11,7 +11,7 @@ title: Linux Plumbers Conference 2021
 
 В планах добавление в GCC 12 детектирования переполнения буфера и поддержка работы на коде ядра Linux.
 
-Домашняя страничка проекта - https://gcc.gnu.org/wiki/DavidMalcolm/StaticAnalyzer.
+Домашняя страничка проекта - <https://gcc.gnu.org/wiki/DavidMalcolm/StaticAnalyzer>.
 
 Продолжение следует ...
 
