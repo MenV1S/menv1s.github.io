@@ -4,6 +4,8 @@ title: Linux Plumbers Conference 2021
 ---
 Одна из самых моих любимых конференций Linux Plumbers прошла на завершающейся неделе (20-24 сентября). Для меня она всегда проходила виртуально и удаленно, в это году этот формат для всех. Детальная программа доступна по [ссылке](https://linuxplumbersconf.org/event/11/timetable/?view=lpc), а я расскажу о том, что заинтересовало меня.
 
+##### GCC's -fanalyzer option: what's new in GCC 12
+
 Тема доклада [GCC's -fanalyzer option: what's new in GCC 12](https://linuxplumbersconf.org/event/11/contributions/996/attachments/772/1453/2021-LPC-analyzer-talk.pdf) понятна из названия.
 В версии GCC 10 появилась опция -fanalyzer, которая добавила межпроцедурный проход анализа кода.  Данная опция позволяет задействовать более тяжеловесный анализ, которые более свойственен серьезным статическим анализаторам.
 
@@ -12,6 +14,10 @@ title: Linux Plumbers Conference 2021
 В планах добавление в GCC 12 детектирования переполнения буфера и поддержка работы на коде ядра Linux.
 
 Домашняя страничка проекта - <https://gcc.gnu.org/wiki/DavidMalcolm/StaticAnalyzer>.
+
+##### Security improvements in GCC
+
+Следующий интересный доклад [Security improvements in GCC](https://linuxplumbersconf.org/event/11/contributions/1001/) тоже из секции GNU Tools и касается функций безопасности GCC.  
 
 Продолжение следует ...
 
