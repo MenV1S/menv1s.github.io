@@ -13,3 +13,5 @@ title: Linux Plumbers Conference 2021
 
 Домашняя страничка проекта - https://gcc.gnu.org/wiki/DavidMalcolm/StaticAnalyzer.
 
+Продолжение следует ...
+
