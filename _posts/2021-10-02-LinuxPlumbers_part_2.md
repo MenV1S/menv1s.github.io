@@ -30,18 +30,19 @@ title: Linux Plumbers Conference 2021 [part 2]
 
 - автоматическая инициализация стековых (локальных) переменных (есть в Clang, реализуется в GCC 12), флаг:
 
-``
+  ``
   -ftrivial-auto-var-init={zero,pattern}
-``
+  ``
 - проверка выхода за границы массивов, флаги:
 
-```
--Warray-bounds
--Wzero-length-bounds
--Wzero-length-array //предупреждение об использовании массива нулевого размера, если он перекрывается другим массивом
--fsanitize=bounds //проверка границ массивов
--fsanitize=bounds-strict //проверка границ массивов
-```
+
+  ``
+  -Warray-bounds
+  -Wzero-length-bounds
+  -Wzero-length-array //предупреждение об использовании массива нулевого размера, если он перекрывается другим массивом
+  -fsanitize=bounds //проверка границ массивов
+  -fsanitize=bounds-strict //проверка границ массивов
+  ``
 
 - защита от переполнения типа int, флаги:
 
