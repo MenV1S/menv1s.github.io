@@ -48,11 +48,12 @@ title: Linux Plumbers Conference 2021 [part 2]
 
 
   ``-fsanitize=signed-integer-overflow //есть в GCC и Clang``
+  
   ``-fsanitize=unsigned-integer-overflow // есть только в Clang``
 
 - флаги для Control Flow Integrity:
 
-```
+  ```
 -flto //Link Time Optimization
 -flto=thin //Link Time Optimization
 -mbranch-protection=pac-ret[+leaf] //backward edge Control Flow Integrity
@@ -64,15 +65,11 @@ title: Linux Plumbers Conference 2021 [part 2]
 
 - меры защиты от Spectre v1
 
-```
--mspeculative-load-hardening 
-```
+  ``-mspeculative-load-hardening``
 
 - рандомизация структур в программах на языке C: 
 
-```
-__attribute__((randomize_layout))
-```
+  ``__attribute__((randomize_layout))``
 
 .
 
