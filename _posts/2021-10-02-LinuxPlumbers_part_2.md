@@ -11,11 +11,13 @@ title: Linux Plumbers Conference 2021 [part 2]
 Рассматривались следующие возможности компиляторов:
 
 - реализация отдельных "канареек" для каждого потока ядра, флаги:
-  ```
+  
+  ``
   -mstack-protector-guard=sysreg
   -mstack-protector-guard-reg=sp_el0
   -mstack-protector-guard-offset=0
-  ```
+  ``
+  
   *поддерживаемые в компиляторах Clang и GCC платформы для указанных выше флагов: x86, powerpc, arm64, riscv(только GCC);*
 
 - очистка регистров при выходе из функций (добавилась в GCC 11, рассматривал ее в первой части обзора конференции), флаг:
@@ -34,7 +36,7 @@ title: Linux Plumbers Conference 2021 [part 2]
 
 - проверка выхода за границы массивов, флаги:
 
-```makefile
+```
 -Warray-bounds
 -Wzero-length-bounds
 -Wzero-length-array //предупреждение об использовании массива нулевого размера, если он перекрывается другим массивом
