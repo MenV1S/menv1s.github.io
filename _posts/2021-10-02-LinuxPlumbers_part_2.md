@@ -30,9 +30,7 @@ title: Linux Plumbers Conference 2021 [part 2]
 
 - автоматическая инициализация стековых (локальных) переменных (есть в Clang, реализуется в GCC 12), флаг:
 
-```
--ftrivial-auto-var-init={zero,pattern}
-```
+```-ftrivial-auto-var-init={zero,pattern}```
 
 - проверка выхода за границы массивов, флаги:
 
