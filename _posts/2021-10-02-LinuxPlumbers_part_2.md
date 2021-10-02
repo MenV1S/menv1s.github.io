@@ -35,16 +35,13 @@ title: Linux Plumbers Conference 2021 [part 2]
   ``
 - проверка выхода за границы массивов, флаги:
 
-
-  ``
+  ```
   -Warray-bounds
-  
   -Wzero-length-bounds
   -Wzero-length-array //предупреждение об использовании массива нулевого размера, если он перекрывается другим массивом
   -fsanitize=bounds //проверка границ массивов
   -fsanitize=bounds-strict //проверка границ массивов
-  ``
-
+  ```
 - защита от переполнения типа int, флаги:
 
 ```
