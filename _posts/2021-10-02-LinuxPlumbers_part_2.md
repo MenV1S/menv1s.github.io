@@ -38,6 +38,7 @@ title: Linux Plumbers Conference 2021 [part 2]
 
   ``
   -Warray-bounds
+  
   -Wzero-length-bounds
   -Wzero-length-array //предупреждение об использовании массива нулевого размера, если он перекрывается другим массивом
   -fsanitize=bounds //проверка границ массивов
