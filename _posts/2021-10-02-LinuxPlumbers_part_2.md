@@ -29,9 +29,9 @@ title: Linux Plumbers Conference 2021 [part 2]
   *сделал [pull request](https://github.com/a13xp0p0v/linux-kernel-defence-map/pull/4) в [карту средств защиты ядра Linux](https://github.com/a13xp0p0v/linux-kernel-defence-map) про CONFIG_ZERO_CALL_USED_REGS ядра, добавляющий сборку ядра с данной опцией*;
 
 - автоматическая инициализация стековых (локальных) переменных (есть в Clang, реализуется в GCC 12), флаг:
-
-```-ftrivial-auto-var-init={zero,pattern}```
-
+``
+  -ftrivial-auto-var-init={zero,pattern}
+``
 - проверка выхода за границы массивов, флаги:
 
 ```
